@@ -177,18 +177,3 @@ export default {
   }
 }
 </script>
-
-<!-- async likeHandle()
-{
-  let t = 23145;
-  if (!(this.video?.likedUsers.includes(this.$store.getters.currentUser.email)) ) {
-    this.video?.likedUsers.push(this.$store.getters.currentUser.email);
-  } else {
-    this.video?.likedUsers.splice(this.video?.likedUsers.indexOf(this.$store.getters.currentUser.email), 1);
-  }
-  const res = await axios.post(`api/videos/${this.$route.params.id}/likes`,
-    {t}
-    );
-
-  console.log(`api/videos/${this.$route.params.id}/likes`);
-}, -->
