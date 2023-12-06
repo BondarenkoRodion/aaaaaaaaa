@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply bg-gray-100;
+}
+
+.like-button{
+    font-size: 48px;
+    font-family: 'Rampart One', sans-serif;
+}
+
+.like-button:hover{
+    color: pink;
+}
